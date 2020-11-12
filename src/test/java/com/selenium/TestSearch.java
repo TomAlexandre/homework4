@@ -94,9 +94,10 @@ public class TestSearch {
         Thread.sleep(5000);
         webDriver.navigate().refresh();
     }
-    /*@AfterAll
+
+    @AfterAll
     public static void tearDown () {
         webDriver.quit();
-    }*/
+    }
 
 }
